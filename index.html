@@ -27,6 +27,12 @@
         }
 
     </style>
+    <script>
+        if('serviceWorker' in navigator){
+          navigator.serviceWorker.register('serviceworker.js');  
+        };
+    </script>
+
 </head>
 
 <body>
@@ -191,7 +197,7 @@
 
 
 <!--Vue.js Code-->
-    <script type="text/javascript">
+    <scrip type="text/javascript">
         var webstore = new Vue({
             el: '#app',
             data: {
@@ -368,7 +374,7 @@
         });
 
 
-    </script>
+    </scrip>
 </body>
 
 </html>
